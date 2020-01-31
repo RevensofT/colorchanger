@@ -1,0 +1,16 @@
+C:\Users\Marcin\Desktop\Leap_Motion_Developer_Kit_4.0.0+52173\LeapSDK\samples\VBColors\VBColors\bin\Debug\VBColors.exe.config
+C:\Users\Marcin\Desktop\Leap_Motion_Developer_Kit_4.0.0+52173\LeapSDK\samples\VBColors\VBColors\bin\Debug\VBColors.exe
+C:\Users\Marcin\Desktop\Leap_Motion_Developer_Kit_4.0.0+52173\LeapSDK\samples\VBColors\VBColors\bin\Debug\VBColors.pdb
+C:\Users\Marcin\Desktop\Leap_Motion_Developer_Kit_4.0.0+52173\LeapSDK\samples\VBColors\VBColors\bin\Debug\VBColors.xml
+C:\Users\Marcin\Desktop\Leap_Motion_Developer_Kit_4.0.0+52173\LeapSDK\samples\VBColors\VBColors\obj\Debug\VBColors.vbprojResolveAssemblyReference.cache
+C:\Users\Marcin\Desktop\Leap_Motion_Developer_Kit_4.0.0+52173\LeapSDK\samples\VBColors\VBColors\obj\Debug\MainWindow.g.vb
+C:\Users\Marcin\Desktop\Leap_Motion_Developer_Kit_4.0.0+52173\LeapSDK\samples\VBColors\VBColors\obj\Debug\Application.g.vb
+C:\Users\Marcin\Desktop\Leap_Motion_Developer_Kit_4.0.0+52173\LeapSDK\samples\VBColors\VBColors\obj\Debug\VBColors_MarkupCompile.cache
+C:\Users\Marcin\Desktop\Leap_Motion_Developer_Kit_4.0.0+52173\LeapSDK\samples\VBColors\VBColors\obj\Debug\VBColors_MarkupCompile.lref
+C:\Users\Marcin\Desktop\Leap_Motion_Developer_Kit_4.0.0+52173\LeapSDK\samples\VBColors\VBColors\obj\Debug\MainWindow.baml
+C:\Users\Marcin\Desktop\Leap_Motion_Developer_Kit_4.0.0+52173\LeapSDK\samples\VBColors\VBColors\obj\Debug\VBColors.g.resources
+C:\Users\Marcin\Desktop\Leap_Motion_Developer_Kit_4.0.0+52173\LeapSDK\samples\VBColors\VBColors\obj\Debug\VBColors.Resources.resources
+C:\Users\Marcin\Desktop\Leap_Motion_Developer_Kit_4.0.0+52173\LeapSDK\samples\VBColors\VBColors\obj\Debug\VBColors.vbproj.GenerateResource.Cache
+C:\Users\Marcin\Desktop\Leap_Motion_Developer_Kit_4.0.0+52173\LeapSDK\samples\VBColors\VBColors\obj\Debug\VBColors.exe
+C:\Users\Marcin\Desktop\Leap_Motion_Developer_Kit_4.0.0+52173\LeapSDK\samples\VBColors\VBColors\obj\Debug\VBColors.xml
+C:\Users\Marcin\Desktop\Leap_Motion_Developer_Kit_4.0.0+52173\LeapSDK\samples\VBColors\VBColors\obj\Debug\VBColors.pdb
