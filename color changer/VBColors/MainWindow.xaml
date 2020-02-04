@@ -1,9 +1,8 @@
-﻿<Window x:Name="MainPanel" x:Class="MainWindow"
+<Window x:Name="MainPanel" x:Class="MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:VBColors"
         mc:Ignorable="d"
         Title="Colors changer" Height="467.105" Width="613.158" ResizeMode="NoResize">
     <Grid x:Name="Background">
@@ -11,14 +10,14 @@
             <ColumnDefinition Width="182*"/>
             <ColumnDefinition Width="423*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="bRed" Content="Red" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Height="74" Background="Red"/>
-        <Button x:Name="bMaroon" Content="Maroon" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="80,0,0,0" Height="74" Background="Maroon"/>
-        <Button x:Name="bYellow" Content="Yellow" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="155,0,0,0" Height="74" Background="Yellow" Grid.ColumnSpan="2"/>
-        <Button x:Name="bOlive" Content="Olive" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="48.474,0,0,0" Height="74" Background="Olive" Grid.Column="1"/>
-        <Button x:Name="bLime" Content="Lime" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="123.474,0,0,0" Height="74" Background="Lime" Grid.Column="1"/>
-        <Button x:Name="bAqua" Content="Aqua" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="198.474,0,0,0" Height="74" Background="Cyan" Grid.Column="1"/>
-        <Button x:Name="bFuchsia" Content="Fuchsia" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="273.474,0,0,0" Height="74" Background="Magenta" Grid.Column="1"/>
-        <Button x:Name="bPurple" Content="Purple" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="348.474,0,0,0" Height="74" Background="Purple" Grid.Column="1"/>
+        <Button x:Name="bRed" Content="Red" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Height="74" Background="Red" DataContext="#FFFF0000"/>
+        <Button x:Name="bMaroon" Content="Maroon" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="80,0,0,0" Height="74" Background="Maroon" DataContext="#FF800000"/>
+        <Button x:Name="bYellow" Content="Yellow" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="155,0,0,0" Height="74" Background="Yellow" Grid.ColumnSpan="2" DataContext="#FFFFFF00"/>
+        <Button x:Name="bOlive" Content="Olive" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="48.474,0,0,0" Height="74" Background="Olive" Grid.Column="1" DataContext="#FF808000"/>
+        <Button x:Name="bLime" Content="Lime" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="123.474,0,0,0" Height="74" Background="Lime" Grid.Column="1" DataContext="#FF00FF00"/>
+        <Button x:Name="bAqua" Content="Aqua" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="198.474,0,0,0" Height="74" Background="Cyan" Grid.Column="1" DataContext="#FF00FFFF"/>
+        <Button x:Name="bFuchsia" Content="Fuchsia" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="273.474,0,0,0" Height="74" Background="Magenta" Grid.Column="1" DataContext="#FFFF00FF"/>
+        <Button x:Name="bPurple" Content="Purple" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="348.474,0,0,0" Height="74" Background="Purple" Grid.Column="1" DataContext="#FF800080"/>
         <TextBox x:Name="tbColorInfo" Grid.Column="1" HorizontalAlignment="Left" Height="55" Margin="48,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Grid.RowSpan="2" IsEnabled="False"/>
         <Button x:Name="bExit" Content="Close" HorizontalAlignment="Left" VerticalAlignment="Top" Width="66" Grid.Column="1" Margin="348,389,0,0" Height="39"/>
 
