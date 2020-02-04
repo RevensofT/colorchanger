@@ -1,45 +1,28 @@
-﻿Class MainWindow
-    Private Sub bRed_Click(sender As Object, e As RoutedEventArgs) Handles bRed.Click
-        Background.Background = Brushes.Red
-        tbColorInfo.Text = "#FFFF0000"
-    End Sub
+Class MainWindow
+    Private Sub MainWindow_Loaded(sender As Object, e As RoutedEventArgs) Handles Me.Loaded
 
-    Private Sub bMaroon_Click(sender As Object, e As RoutedEventArgs) Handles bMaroon.Click
-        Background.Background = Brushes.Maroon
-        tbColorInfo.Text = "#FF800000"
-    End Sub
+        For Each C As UIElement In Background.Children ' Search every item in Grid:Background.
+            If TypeOf C Is Button Then 'Is current item is a button ?
 
-    Private Sub bYellow_Click(sender As Object, e As RoutedEventArgs) Handles bYellow.Click
-        Background.Background = Brushes.Yellow
-        tbColorInfo.Text = "#FFFFFF00"
-    End Sub
+            With DirectCast(C, Button) ' Use [DirectCast] to adapt current item as button.
 
-    Private Sub bOlive_Click(sender As Object, e As RoutedEventArgs) Handles bOlive.Click
-        Background.Background = Brushes.Olive
-        tbColorInfo.Text = "#FF808000"
-    End Sub
+                    '[.DataContext] ? it effect of [With] above, it equal [DirectCast(C, Button).DataContext]
+                    If .DataContext IsNot Nothing Then AddHandler .Click,
+                        Sub()
+                            Background.Background = .Background 'We can use color from other item.
 
-    Private Sub bLime_Click(sender As Object, e As RoutedEventArgs) Handles bLime.Click
-        Background.Background = Brushes.Lime
-        tbColorInfo.Text = "#FF00FF00"
-    End Sub
+                            'I add color code in DataContext at design page(xaml), make it easier to set it all at once.
+                            tbColorInfo.Text = .DataContext
+                        End Sub
 
-    Private Sub bAqua_Click(sender As Object, e As RoutedEventArgs) Handles bAqua.Click
-        Background.Background = Brushes.Aqua
-        tbColorInfo.Text = "#FF00FFFF"
-    End Sub
+                End With
 
-    Private Sub bFuchsia_Click(sender As Object, e As RoutedEventArgs) Handles bFuchsia.Click
-        Background.Background = Brushes.Fuchsia
-        tbColorInfo.Text = "#FFFF00FF"
-    End Sub
+            End If
+        Next
 
-    Private Sub bPurple_Click(sender As Object, e As RoutedEventArgs) Handles bPurple.Click
-        Background.Background = Brushes.Purple
-        tbColorInfo.Text = "#FF800080"
-    End Sub
-
-    Private Sub bExit_Click(sender As Object, e As RoutedEventArgs) Handles bExit.Click
-        System.Windows.Application.Current.Shutdown()
+        'If we don't need [sender As Object] or [e As RoutedEventArgs] just left it out.
+        AddHandler bExit.Click, Sub()
+                                    Application.Current.Shutdown()
+                                End Sub
     End Sub
 End Class
